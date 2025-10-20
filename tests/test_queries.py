@@ -1,6 +1,5 @@
 import psycopg2
 import pytest
-import os
 
 DB_PARAMS = {
     'dbname': 'test_db',
@@ -10,13 +9,12 @@ DB_PARAMS = {
     'port': '5432'
 }
 
-SQL_DIR = 'sql_queries'  # Carpeta donde están los archivos .sql
 
 def get_connection():
     return psycopg2.connect(**DB_PARAMS)
 
 def load_sql(filename):
-    with open(os.path.join(SQL_DIR, filename), 'r') as f:
+    with open(filename), 'r') as f:
         return f.read()
 
 def test_03_listar_todos_los_gastos():
