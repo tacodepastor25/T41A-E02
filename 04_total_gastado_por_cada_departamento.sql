@@ -1,0 +1,1 @@
+-- Total gastado por cada departamento
