@@ -1,1 +1,1 @@
-
+-- Total de gastos por día
