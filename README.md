@@ -5,9 +5,9 @@ Identifique las entidades y las relaciones del siguiente requerimiento de regist
 
 Después normaliza las tablas hasta la tercera forma normal.   
 
-La aplicación `gastos` registrará el `usuario` el `tipo_de_gasto`, esto se relaciona con la `cuenta`  
+"La aplicación `gastos` registrará el `usuario` el `tipo_de_gasto`, esto se relaciona con la `cuenta`  
 asociada al `tipo_de_gasto`, también se registrará el `departamento` en la segunda pantalla   
-se tiene una forma con el `monto`, el `RFC` del proveedor y el `nombre_del_proveedor` 
+se tiene una forma con el `monto`, el `RFC` del proveedor y el `nombre_del_proveedor` "
 
 Toma como referencia los siguientes nombres de tablas y/o columnas y    
 agrega las **llaves foráneas** donde corresponda.
