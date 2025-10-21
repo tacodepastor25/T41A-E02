@@ -14,7 +14,7 @@ def get_connection():
     return psycopg2.connect(**DB_PARAMS)
 
 def load_sql(filename):
-    with open(filename), 'r') as f:
+    with open(filename, 'r') as f:
         return f.read()
 
 def test_03_listar_todos_los_gastos():
