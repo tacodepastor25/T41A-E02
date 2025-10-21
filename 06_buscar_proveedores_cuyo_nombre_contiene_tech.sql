@@ -1,1 +1,1 @@
-
+-- Buscar proveedores cuyo nombre contiene 'Tech'
