@@ -7,7 +7,8 @@ La aplicación `gastos` registrará el `usuario` el `tipo_de_gasto`, esto se rel
 asociada al `tipo_de_gasto`, también se registrará el `departamento` en la segunda pantalla   
 se tiene una forma con el `monto`, el `RFC` del proveedor y el `nombre_del_proveedor` 
 
-Toma como referencia los siguientes nombres de tablas y/o columnas y agrega las llaves foráneas donde corresponda.
+Toma como referencia los siguientes nombres de tablas y/o columnas y    
+agrega las **llaves foráneas** donde corresponda.
 
 - `usuario`   
 - `id_usuario`   
