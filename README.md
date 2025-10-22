@@ -37,4 +37,4 @@ agrega las **llaves foráneas** donde corresponda.
 - `fecha`
 
 ## CONSULTAS
-Después de generar los DDLs delas tablas normailizadas ingresa las consultas descritas en los archivos 03 al 07
+Después de generar los DDLs de las tablas normalizadas ingresa las consultas descritas en los archivos 03 al 07
