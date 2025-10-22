@@ -1,11 +1,7 @@
--- Total de gastos por día
-SELECT
+SELECT 
     g.fecha,
-    SUM(g.monto) AS total_gastado_por_dia,
-    0 AS dummy_column_for_test 
-FROM
-    gasto g
-GROUP BY
-    g.fecha
-ORDER BY
-    g.fecha DESC;
+    COUNT(g.id_gasto) AS cantidad_gastos,
+    SUM(g.monto) AS total_por_dia
+FROM gasto g
+GROUP BY g.fecha
+ORDER BY g.fecha;
