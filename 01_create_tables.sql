@@ -1,12 +1,12 @@
 -- USUARIO
 CREATE TABLE usuario (
-    id_usuario SERIAL PRIMARY KEY,
+    id_usuario PRIMARY KEY,
     nombre_usuario VARCHAR(100) NOT NULL
 );
 
 -- DEPARTAMENTO
 CREATE TABLE departamento (
-    id_departamento SERIAL PRIMARY KEY,
+    id_departamento PRIMARY KEY,
     nombre_departamento VARCHAR(100) NOT NULL
 );
 
@@ -18,7 +18,7 @@ CREATE TABLE cuenta (
 
 -- TIPO_DE_GASTO
 CREATE TABLE tipo_de_gasto (
-    id_tipo_gasto SERIAL PRIMARY KEY,
+    id_tipo_gasto PRIMARY KEY,
     nombre_tipo_gasto VARCHAR(100) NOT NULL,
     id_cuenta INT NOT NULL,
     FOREIGN KEY (id_cuenta) REFERENCES cuenta(id_cuenta)
@@ -32,7 +32,7 @@ CREATE TABLE proveedor (
 
 -- GASTO
 CREATE TABLE gasto (
-    id_gasto SERIAL PRIMARY KEY,
+    id_gasto PRIMARY KEY,
     id_usuario INT NOT NULL,
     id_tipo_gasto INT NOT NULL,
     id_departamento INT NOT NULL,
