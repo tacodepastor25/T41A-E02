@@ -1,6 +1,6 @@
 # T41A-E02
 
-## EJERCICIO DE NORMALIZACIÓN
+## NORMALIZACIÓN
 Identifique las entidades y las relaciones del siguiente requerimiento de registro de información.   
 
 Después normaliza las tablas hasta la tercera **forma normal (3FN)**.   
@@ -36,3 +36,6 @@ agrega las **llaves foráneas** donde corresponda.
 - `monto`
 - `fecha`
 
+## CONSULTAS
+Después de generar los DDLs delas tablas normailizadas
+Ingresa las consultas descritas en los archivos 03 al 07
